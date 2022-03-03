@@ -95,7 +95,7 @@ int main(void)
     /* USER CODE END WHILE */
 	  switch(A) {
 	  	case 0: HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 0);
-	            HAL_Delay(1:w00);
+	            HAL_Delay(100);
 	  	case 1:HAL_GPIO_WritePin(LED_GPIO_Port, LED_Pin, 1);
                 HAL_Delay(100);
 
